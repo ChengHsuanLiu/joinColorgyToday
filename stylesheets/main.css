@@ -1,0 +1,625 @@
+/* line 1, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+a,
+a:focus,
+a:hover {
+  color: #fff; }
+
+/* line 6, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+html,
+body {
+  height: 100%;
+  background-color: #00cfe4; }
+
+/* line 11, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+body {
+  color: #fff;
+  text-align: center; }
+
+/* line 15, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+p {
+  font-size: 18px;
+  letter-spacing: 2px; }
+
+/* line 19, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.breakShow {
+  display: none; }
+
+/* line 22, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.breakShowXS {
+  display: none; }
+
+/* line 25, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+  background: linear-gradient(transparent, #000000), url("../images/cover.jpg") repeat fixed;
+  background-position: center;
+  background-size: cover; }
+
+/* line 34, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: middle; }
+
+/* line 38, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.cover-container {
+  margin-right: auto;
+  margin-left: auto; }
+
+/* line 42, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.inner {
+  padding: 30px; }
+
+/* line 45, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.cover {
+  padding: 0 20px; }
+
+/* line 48, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.coverText {
+  width: 20%; }
+
+/* line 51, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.coverIcon {
+  position: absolute;
+  left: 48.5%;
+  right: 48.5%;
+  bottom: 30px;
+  width: 3%; }
+
+@media (min-width: 992px) {
+  /* line 60, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .cover-container {
+    width: 700px; } }
+/* line 65, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.majorTitle {
+  font-size: 40px;
+  padding-bottom: 5px; }
+
+/* line 69, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.minorTitle {
+  font-size: 18px;
+  line-height: 30px; }
+
+/* line 73, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.introImage {
+  width: 10%;
+  margin: 0px auto 50px auto; }
+
+/* line 77, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.introBlock {
+  background-color: #ffe100;
+  padding: 80px 0 30px 0; }
+
+/* line 81, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.introBlockRow {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 20px 0;
+  color: #717071; }
+
+/* line 88, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.introText {
+  padding: 0 250px;
+  text-align: left; }
+
+/* line 92, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosBlockTitleRow {
+  padding: 70px 15px 90px 15px;
+  background-color: #337AB7; }
+
+/* line 97, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosLeadIcon {
+  position: absolute;
+  left: 49%;
+  right: 49%;
+  bottom: 0px;
+  width: 2%;
+  -webkit-transform: translateY(30px); }
+
+/* line 105, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosTitle > p {
+  font-weight: bold;
+  font-size: 36px; }
+
+/* line 109, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosText {
+  background-color: #00cfe4;
+  padding: 30px 120px 50px 120px;
+  text-align: left; }
+
+/* line 114, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosTextLead {
+  margin: 20px 0;
+  font-size: 22px; }
+
+/* line 118, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosImage1 {
+  background: url("../images/prosImage1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+/* line 124, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosImage2 {
+  background: url("../images/prosImage2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+/* line 130, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosImage3 {
+  background: url("../images/prosImage3.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+/* line 136, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.prosImage4 {
+  background: url("../images/prosImage4.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+/* line 143, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.benefitBlock {
+  background-color: #ffe100;
+  color: #717071; }
+
+/* line 147, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.benefitText1,
+.benefitText2,
+.benefitText3 {
+  margin: 80px 0px;
+  padding: 0px 60px; }
+
+/* line 154, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobBlock {
+  background-color: #ffe100; }
+
+/* line 157, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobCol {
+  padding: 0; }
+
+/* line 160, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer1 {
+  background: url("../images/job1.jpg") no-repeat center bottom 100%;
+  background-size: cover; }
+
+/* line 164, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer2 {
+  background: url("../images/job2.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 168, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer3 {
+  background: url("../images/job3.png") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 172, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer4 {
+  background: url("../images/job4.jpg") no-repeat left 100%;
+  background-size: cover; }
+
+/* line 176, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer5 {
+  background: url("../images/job5.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 180, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer6 {
+  background: url("../images/job6.png") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 184, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer7 {
+  background: url("../images/job7.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 188, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer8 {
+  background: url("../images/job8.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+/* line 192, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer9 {
+  background: url("../images/job9.jpg") no-repeat center 100%;
+  background-size: cover; }
+
+@media (max-width: 767px) {
+  /* line 197, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer1 {
+    background: linear-gradient(transparent, #000000), url("../images/job1.jpg") no-repeat center bottom 100%;
+    background-size: cover; }
+
+  /* line 201, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer2 {
+    background: linear-gradient(transparent, #000000), url("../images/job2.jpg") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 205, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer3 {
+    background: linear-gradient(transparent, #000000), url("../images/job3.png") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 209, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer4 {
+    background: linear-gradient(transparent, #000000), url("../images/job4.jpg") no-repeat left 100%;
+    background-size: cover; }
+
+  /* line 213, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer5 {
+    background: linear-gradient(transparent, #000000), url("../images/job5.jpg") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 217, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer6 {
+    background: linear-gradient(transparent, #000000), url("../images/job6.png") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 221, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer7 {
+    background: linear-gradient(transparent, #000000), url("../images/job7.jpg") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 225, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer8 {
+    background: linear-gradient(transparent, #000000), url("../images/job8.jpg") no-repeat center 100%;
+    background-size: cover; }
+
+  /* line 229, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer9 {
+    background: linear-gradient(transparent, #000000), url("../images/job9.jpg") no-repeat center 100%;
+    background-size: cover; } }
+/* line 234, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobInfo {
+  z-index: 3;
+  position: relative; }
+
+/* line 238, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.mask {
+  background: #00cfe4;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s; }
+
+/* line 256, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer:hover .mask {
+  opacity: 1; }
+
+/* line 261, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobInfo > p {
+  text-align: left;
+  margin-bottom: 10px; }
+
+/* line 265, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobInfoTitle {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0 30px 24px 30px;
+  letter-spacing: 1px; }
+
+/* line 272, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #717071;
+  display: table; }
+
+/* line 280, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.footer > .container {
+  display: table-cell;
+  vertical-align: middle;
+  width: auto;
+  height: 100px;
+  max-width: 680px;
+  padding: 0 15px; }
+
+/* line 288, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.footerText {
+  color: #ffffff;
+  font-size: 20px; }
+
+/* line 292, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.footerButton {
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 18px; }
+
+/* line 300, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.footerButton:hover {
+  background-color: #eeeeee;
+  text-decoration: none;
+  color: #717071; }
+
+@media (min-width: 768px) {
+  /* line 307, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .site-wrapper-inner {
+    vertical-align: middle; }
+
+  /* line 310, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .cover-container {
+    width: 100%; }
+
+  /* line 313, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center; }
+
+  /* line 325, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosBlockRow {
+    -webkit-align-items: stretch;
+    align-items: stretch; }
+
+  /* line 329, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .benefitBlockRow {
+    -webkit-align-items: flex-start;
+    align-items: flex-start; }
+
+  /* line 333, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobRow {
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+
+  /* line 340, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobCol {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+
+  /* line 347, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    top: 0;
+    height: auto;
+    opacity: 0;
+    padding: 40px;
+    text-align: left;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+
+  /* line 358, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobImageLayer:hover .jobInfo {
+    opacity: 1; }
+
+  /* line 361, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo > p {
+    margin-bottom: 18px; } }
+@media (min-width: 1280px) {
+  /* line 366, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introBlockRow {
+    margin: 0 100px;
+    margin-bottom: 50px; } }
+@media (max-width: 1000px) {
+  /* line 372, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    height: auto; }
+
+  /* line 375, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosText {
+    padding: 30px 60px 40px 60px; } }
+@media (max-width: 767px) {
+  /* line 380, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .site-wrapper {
+    background: linear-gradient(transparent, #000000), url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover; }
+
+  /* line 387, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .breakShow {
+    display: inline; }
+
+  /* line 390, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosBlockRow {
+    display: block; }
+
+  /* line 393, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosLeadIcon {
+    left: 48%;
+    right: 48%;
+    bottom: 0px;
+    width: 4%;
+    -webkit-transform: translateY(33px); }
+
+  /* line 400, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosText {
+    padding: 20px 150px 40px 150px; }
+
+  /* line 403, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introText {
+    padding: 0 150px; }
+
+  /* line 406, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .benefitText1,
+  .benefitText2,
+  .benefitText3 {
+    padding: 0px 150px; }
+
+  /* line 411, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfoTitle {
+    padding-top: 300px; }
+
+  /* line 414, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo > p {
+    margin-left: 25px;
+    margin-right: 25px; }
+
+  /* line 418, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .footer > .container {
+    height: 150px; }
+
+  /* line 421, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .footerButton {
+    margin: 0;
+    margin-top: 16px; }
+
+  /* line 426, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .defaultCoverText {
+    display: none; }
+
+  /* line 430, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .mask {
+    display: none; } }
+@media (max-width: 550px) {
+  /* line 435, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .coverText {
+    width: 40%; }
+
+  /* line 438, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introText {
+    padding: 0 100px; }
+
+  /* line 441, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosTitle > p {
+    font-size: 27px; }
+
+  /* line 444, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosLeadIcon {
+    left: 47%;
+    right: 47%;
+    bottom: 0px;
+    width: 6%;
+    -webkit-transform: translateY(35px); }
+
+  /* line 451, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosText {
+    padding: 20px 100px 40px 100px; }
+
+  /* line 454, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .benefitText1,
+  .benefitText2,
+  .benefitText3 {
+    padding: 0px 100px; }
+
+  /* line 459, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    height: auto; } }
+@media (max-width: 418px) {
+  /* line 464, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  p {
+    font-size: 12px; }
+
+  /* line 467, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .breakShowXS {
+    display: inline; }
+
+  /* line 470, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introImage {
+    width: 30%; }
+
+  /* line 473, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .introText {
+    padding: 0 40px 0 50px; }
+
+  /* line 476, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosBlockTitleRow {
+    padding: 45px 15px 60px 15px; }
+
+  /* line 479, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosTitle > p {
+    font-size: 24px; }
+
+  /* line 482, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosLeadIcon {
+    -webkit-transform: translateY(25px); }
+
+  /* line 485, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosText {
+    padding: 20px 45px 40px 50px; }
+
+  /* line 488, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .benefitText1,
+  .benefitText2,
+  .benefitText3 {
+    padding: 0px 45px 0px 50px; }
+
+  /* line 493, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    height: auto; }
+
+  /* line 496, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .coverText {
+    width: 50%; }
+
+  /* line 499, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .majorTitle {
+    font-size: 32px;
+    padding-bottom: 10px; }
+
+  /* line 503, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .minorTitle {
+    font-size: 16px; }
+
+  /* line 506, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .footerText {
+    font-size: 14px; } }
+@media (max-width: 320px) {
+  /* line 511, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfo {
+    height: auto; }
+
+  /* line 514, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .jobInfoTitle {
+    padding-top: 250px; }
+
+  /* line 517, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+  .prosTitle > p {
+    font-size: 19px; } }
+/* line 522, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.jobImageLayer {
+  position: relative;
+  padding: 12px 0; }
+
+/* line 527, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.defaultCoverText {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2); }
+
+/* line 536, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
+.defaultCoverText > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }
