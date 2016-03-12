@@ -359,19 +359,6 @@ p {
   .cover-container {
     width: 100%; }
 
-  /* line 313, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
-  .row {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-align-items: center;
-    align-items: center; }
-
   /* line 325, /Users/Lucas/Project/joinColorgyToday/source/stylesheets/main.css.scss */
   .prosBlockRow {
     -webkit-align-items: stretch;
