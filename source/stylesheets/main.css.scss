@@ -193,6 +193,10 @@ p {
   background: image-url('job9.jpg') no-repeat center 100%;
   background-size: cover;
 }
+.jobImageLayer10 {
+  background: image-url('job10.jpg') no-repeat center 100%;
+  background-size: cover;
+}
 @media (max-width: 767px) {
   .jobImageLayer1 {
     background: linear-gradient(transparent, #000000), image-url('job1.jpg') no-repeat center bottom 100%;
@@ -228,6 +232,10 @@ p {
   }
   .jobImageLayer9 {
     background: linear-gradient(transparent, #000000), image-url('job9.jpg') no-repeat center 100%;
+    background-size: cover;
+  }
+  .jobImageLayer10 {
+    background: linear-gradient(transparent, #000000), image-url('job10.jpg') no-repeat center 100%;
     background-size: cover;
   }
 }
